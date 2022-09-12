@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2022-06-14T10:18:25.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="zOwKMIFuCEslSn9dSG9r" version="20.0.0" type="gitlab">
+  <diagram id="I2c8T8Aa2if7AaFvqU4U" name="orderShortageSequence">
+    <mxGraphModel dx="1022" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-1" value="&lt;div&gt;• Name: Creating Or updating orders according to shortage.&lt;/div&gt;&lt;div&gt;• Description: Creating or updating order form, due to shortage of items in the inventory.&lt;/div&gt;&lt;div&gt;• Actors:&amp;nbsp;&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;inventory&amp;nbsp;&lt;/span&gt;worker – the&amp;nbsp;&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;inventory&amp;nbsp;&lt;/span&gt;worker has the responsibility to update and check for shortages at the inventory.&lt;/div&gt;&lt;div&gt;• Pre-condition – at least one item in short.&lt;/div&gt;&lt;div&gt;• Post-condition – order forms containing orders for the shortages has been created or updated.&lt;/div&gt;&lt;div&gt;• Main success scenario:&lt;/div&gt;&lt;div&gt;1. Inventory worker enters the system&lt;/div&gt;&lt;div&gt;2. In the menu, he chooses the option of &quot;CreateShortageReport&quot;&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;The system produces shortage report for the item.&lt;/div&gt;&lt;div&gt;4. also on the menu he chooses the option of &quot;Create orders for shortages&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. The system chooses the supplier with the nearest available supply date and creates a new order form or update existing one for the matching suppliers.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Alternatives/Extensions: none&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="410" y="310" width="776" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-2" value="&lt;u&gt;&lt;b&gt;Sequence diagram for main actor:&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="608" y="70" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="618" y="100" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="W8dkwiSjEEC2JCjF4Q6q-3" vertex="1">
+          <mxGeometry x="5" y="50" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-5" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="828" y="100" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="W8dkwiSjEEC2JCjF4Q6q-5" vertex="1">
+          <mxGeometry x="30" y="50" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CreateShortageReport()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;exitX=0.992;exitY=0.086;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-4" target="W8dkwiSjEEC2JCjF4Q6q-6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="818" y="180" as="sourcePoint" />
+            <mxPoint x="858" y="163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Shortage report&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.975;entryY=0.252;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-6" target="W8dkwiSjEEC2JCjF4Q6q-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="818" y="180" as="sourcePoint" />
+            <mxPoint x="638" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CreateOrdersForShortage()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;exitX=1.002;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="638" y="210" as="sourcePoint" />
+            <mxPoint x="858" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=10;exitX=1.067;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-4" target="W8dkwiSjEEC2JCjF4Q6q-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="240" as="sourcePoint" />
+            <mxPoint x="728" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-11" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;[Orders succesfully created]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="625" y="213" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-12" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Success message&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;exitX=-0.039;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.978;entryY=0.696;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-6" target="W8dkwiSjEEC2JCjF4Q6q-4" edge="1">
+          <mxGeometry x="0.064" relative="1" as="geometry">
+            <mxPoint x="853.25" y="240" as="sourcePoint" />
+            <mxPoint x="638" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-13" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Failure message&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;exitX=-0.085;exitY=0.922;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.043;entryY=0.922;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="W8dkwiSjEEC2JCjF4Q6q-6" target="W8dkwiSjEEC2JCjF4Q6q-4" edge="1">
+          <mxGeometry x="0.0837" relative="1" as="geometry">
+            <mxPoint x="849.8299999999999" y="260.0000000000001" as="sourcePoint" />
+            <mxPoint x="625" y="260.52" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W8dkwiSjEEC2JCjF4Q6q-14" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;alt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=20;height=20;" parent="1" vertex="1">
+          <mxGeometry x="598" y="220" width="280" height="57" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

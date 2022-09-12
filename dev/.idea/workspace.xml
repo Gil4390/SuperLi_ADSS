@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ADSS_Project_GroupF:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bff4f8d-b05e-4987-990d-e6f7d9b1919d" name="Default Changelist" comment="debugging junit tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/מצגת ניתוצ.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/מצגת ניתוצ.pptx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29sxcZR0KFcLKVs17diYz7LJSWl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\src\DataAccessLayer" />
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\src\BusinessLayer" />
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\src\ServiceLayer" />
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\src\Presentation\Model" />
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\src\Presentation\ViewModel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev\Test" />
+      <recent name="C:\Users\User\Desktop\adss_group_f\dev" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Presentation.Main" />
+      <module name="ADSS_Project_GroupF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bff4f8d-b05e-4987-990d-e6f7d9b1919d" name="Default Changelist" comment="debugging junit tests" />
+      <created>1653915674101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653915674101</updated>
+      <workItem from="1653915680517" duration="3735000" />
+      <workItem from="1653920124608" duration="2291000" />
+      <workItem from="1653978895837" duration="9061000" />
+      <workItem from="1653989854718" duration="12459000" />
+      <workItem from="1654108009992" duration="3784000" />
+      <workItem from="1654157695714" duration="13770000" />
+      <workItem from="1654615406077" duration="4657000" />
+      <workItem from="1654623085041" duration="3008000" />
+      <workItem from="1654688288660" duration="785000" />
+      <workItem from="1654877559632" duration="1638000" />
+      <workItem from="1654931772057" duration="6522000" />
+      <workItem from="1655042819504" duration="232000" />
+      <workItem from="1655234644630" duration="405000" />
+      <workItem from="1655318298033" duration="1097000" />
+      <workItem from="1655661267673" duration="448000" />
+      <workItem from="1655968628413" duration="4090000" />
+      <workItem from="1655990028177" duration="55000" />
+    </task>
+    <task id="LOCAL-00001" summary="add and remove brances functionality , fix load data of employees">
+      <created>1654679773410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654679773410</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix menues">
+      <created>1654686306006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654686306006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix menus &amp; fix bug drivers as2">
+      <created>1654687874434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654687874434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sorting diagrams">
+      <created>1654874411854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654874411854</updated>
+    </task>
+    <task id="LOCAL‎00005" summary="fixed menus">
+      <created>1654965946201</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1654965946201</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add number to employee -u">
+      <created>1654973835173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654973835173</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added number to employee without load errors thorws -u">
+      <created>1654977485363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654977485363</updated>
+    </task>
+    <task id="LOCAL-00008" summary="print HQ &amp; set in shift or not">
+      <created>1655038913977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655038913977</updated>
+    </task>
+    <task id="LOCAL-00009" summary="grant access to supplier menu">
+      <created>1655039310191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655039310191</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add more data to employee module">
+      <created>1655041021421</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655041021421</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix menus with first init and employee exist">
+      <created>1655044498168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655044498168</updated>
+    </task>
+    <task id="LOCAL-00012" summary="debugging update order">
+      <created>1655202466328</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655202466328</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add and remove brances functionality , fix load data of employees" />
+    <MESSAGE value="fix menues" />
+    <MESSAGE value="fix menus &amp; fix bug drivers as2" />
+    <MESSAGE value="sorting diagrams" />
+    <MESSAGE value="fixed menus" />
+    <MESSAGE value="Add number to employee -u" />
+    <MESSAGE value="added number to employee without load errors thorws -u" />
+    <MESSAGE value="print HQ &amp; set in shift or not" />
+    <MESSAGE value="grant access to supplier menu" />
+    <MESSAGE value="add more data to employee module" />
+    <MESSAGE value="fix menus with first init and employee exist" />
+    <MESSAGE value="debugging update order" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging update order" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Presentation/View/SupplierView/SupplierMainMenuView.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/EmployeeModule/controllers/ShiftController.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Presentation/ViewModel/InventoryViewModel/DamagedItemViewModel.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/ApplicationFacade.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/DeliveryModule/DeliveryFacade.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/DeliveryModule/DeliveryFacade.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/DeliveryModule/Objects/SiteDoc.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/ApplicationFacade.java</url>
+          <line>896</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataAccessLayer/DeliveryModuleDal/DControllers/SiteDocMapper.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/DeliveryModule/Objects/SiteDoc.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Presentation/Model/SupplierModel/SupplierModel.java</url>
+          <line>420</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BusinessLayer/SupplierBusiness/DemandOrder.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Presentation/View/InventoryView/ReportsMenuView.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test/DeliveryTests/DeliveryFacadeTest.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Test/InventoryAndSupplierTests_PartTwo.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DataAccessLayer/DataBaseCreator.java</url>
+          <line>516</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Test/DeliveryTests/DeliveryFacadeTest.java</url>
+          <line>327</line>
+          <properties class="DeliveryTests.DeliveryFacadeTest" method="createDelivery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Presentation/ViewModel/InventoryViewModel/CategoryViewModel.java</url>
+          <line>69</line>
+          <properties class="Presentation.ViewModel.InventoryViewModel.CategoryViewModel">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.concurrent.ConcurrentHashMap$MapEntry" memberName="value" />
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dev$Main.ic" NAME="Main Coverage Results" MODIFIED="1654687135270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Presentation.*</FILTER>
+    </SUITE>
+  </component>
+</project>

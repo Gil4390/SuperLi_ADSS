@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2022-06-12T13:48:42.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hQaFkdxJg5ZplOKaX6NW" version="20.0.0" type="gitlab">
+  <diagram id="VZBdu1eslwXIAnFMfJLw" name="Page-1">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D97SbHli2G8lDrB8jMun-55" value="Supply Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-56" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="130" as="sourcePoint" />
+            <mxPoint x="710" y="129.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-57" value="1:addSupplier(&lt;span style=&quot;font-size: 7px; text-align: center;&quot;&gt;AddSupplier(name, BN,delivery,&lt;/span&gt;&lt;br style=&quot;font-size: 7px; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 7px; text-align: center;&quot;&gt;Paymenr method, address,supply days&lt;/span&gt;)" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="64" relative="1" as="geometry">
+            <mxPoint x="585" y="120" as="sourcePoint" />
+            <mxPoint x="620" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="595" y="120" />
+              <mxPoint x="595" y="120" />
+            </Array>
+            <mxPoint x="-50" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-58" value="sp: SupplierFacade" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="110" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-59" value="sc: SupplierController" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="925" y="110" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-60" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="D97SbHli2G8lDrB8jMun-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="787.5" y="129.89000000000033" as="sourcePoint" />
+            <mxPoint x="917.5" y="129.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-61" value="1.1:addSupplier(&lt;span style=&quot;font-size: 7px; text-align: center;&quot;&gt;AddSupplier(name, BN,delivery,&lt;/span&gt;&lt;br style=&quot;font-size: 7px; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 7px; text-align: center;&quot;&gt;Paymenr method, address,supply days&lt;/span&gt;)" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-1" y="64" relative="1" as="geometry">
+            <mxPoint x="841.5" y="119.85000000000036" as="sourcePoint" />
+            <mxPoint x="876.5" y="119.85000000000036" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="862" y="120" />
+              <mxPoint x="862" y="120" />
+            </Array>
+            <mxPoint x="-50" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-62" value="sm: SupplierMapper" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="925" y="310" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-63" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;entryX=0.476;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="D97SbHli2G8lDrB8jMun-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975" y="150" as="sourcePoint" />
+            <mxPoint x="1160" y="129.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-64" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="320" width="52.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-65" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1.1.1:checkSupplierNotExist(id)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="330" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-66" value="" style="endArrow=block;endFill=1;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="985" y="206" as="sourcePoint" />
+            <mxPoint x="985" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-67" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;1.1.1:insert(&lt;/span&gt;AddSupplier(name, BN,delivery,&lt;br style=&quot;&quot;&gt;Paymenr method, address,supply days&lt;span style=&quot;text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="926" y="216" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-68" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D97SbHli2G8lDrB8jMun-69" target="D97SbHli2G8lDrB8jMun-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="310" as="sourcePoint" />
+            <mxPoint x="984.98" y="301.1199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-69" value="Supplier" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="665" y="310" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-70" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;1.1.2:s = create(&lt;/span&gt;AddSupplier(name, BN,delivery,&lt;br style=&quot;&quot;&gt;Paymenr method, address,supply days&lt;span style=&quot;text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="280" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-71" value="" style="endArrow=block;endFill=1;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="866.5" y="319.6399999999999" as="sourcePoint" />
+            <mxPoint x="823.5" y="319.30999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-72" value="suppliers: Supplier[*]" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="925" y="460" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-73" value="" style="endArrow=none;html=1;rounded=0;fontSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="D97SbHli2G8lDrB8jMun-72" target="D97SbHli2G8lDrB8jMun-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="320" as="sourcePoint" />
+            <mxPoint x="935" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-74" value="" style="endArrow=block;endFill=1;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972" y="385" as="sourcePoint" />
+            <mxPoint x="972" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;1.1.3:add(s)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="390" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D97SbHli2G8lDrB8jMun-76" value="suppliers: Supplier" style="html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="915" y="466" width="105" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

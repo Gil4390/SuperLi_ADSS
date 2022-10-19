@@ -12,5 +12,5 @@ During the several stages of the course we had to integrate the different module
 
 the system is designed in a modular and balanced way in the time ratio given to us, as to support those changes.
 
-The implementation is based on 4-lvl-tier with presentation level based on MVVM pattern In addition to the implementation
-there are very detailed analysis and design charts for the entire system such as: class diagram, ERD, DFD, collaboration diagram and more.
+The implementation is based on 4-lvl-tier with presentation level based on MVVM pattern.
+In addition to the implementation there are very detailed analysis and design charts for the entire system such as: class diagram, ERD, DFD, collaboration diagram and more.

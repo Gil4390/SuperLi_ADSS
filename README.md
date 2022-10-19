@@ -1,6 +1,6 @@
 # SuperLi: Supermarket Managment System
 
-Analysis, design and implementation of a supermarket managment system, developed as part of the course Analysis and Design of Software Systems, 
+Analysis, design and implementation of a supermarket management system, developed as part of the course Analysis and Design of Software Systems, 
 the project involved 8 students each responsible for a different module consisting of: 
 
 * Employees
